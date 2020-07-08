@@ -21,3 +21,5 @@ my_predict <- predict(model, test, type = "class")
 # সেটাকে একটা ফাইলে লেখি 
 test_df <- data.frame(PassengerId = test$PassengerId,
                   Name= test$Name, Survived = my_predict) 
+
+# this is comment 
